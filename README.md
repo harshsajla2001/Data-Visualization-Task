@@ -1,70 +1,49 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Data-Visualization-Task
 
-## Available Scripts
+Technologies Used: 
 
-In the project directory, you can run:
+The project is built using React, a popular JavaScript library for building user interfaces. It also utilizes ECharts, a powerful visualization library, for rendering the line and bar charts.
 
-### `npm start`
+Component Structure:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The project consists of at least two custom components: LineChart.utils.js and BarChart.utils.js, which are located in the utils directory.
+The LineChart.utils.js and BarChart.utils.js components are responsible for rendering line and bar charts, respectively. They receive props such as xAxisLabel, yAxisLabel, data, and chartType to configure the charts.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Data Source:
 
-### `npm test`
+The project imports data from the dataForChats.data.js file located in the root directory. This data is used to populate the charts with meaningful information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Rendering:
 
-### `npm run build`
+The Charts component is the main component responsible for rendering the line and bar charts.
+Inside the Charts component, instances of LineChart and BarChart components are created, each with specific configurations such as axis labels, chart type, and data.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Demo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://drive.google.com/file/d/1DuNBv8mlMmueB8j-4-6ewuy4fkUQ3FDW/view?usp=sharing
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Screenshots
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![App Screenshot](https://drive.google.com/file/d/1DuNBv8mlMmueB8j-4-6ewuy4fkUQ3FDW/view?usp=sharing)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Installation
 
-## Learn More
+Install Data-Visualization-Task with yarn
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/harshsajla2001/Data-Visualization-Task.git
+cd Data-Visualization-Task
+yarn install
+yarn start
+  
+```
+    
+## Authors
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Github Profile](https://www.github.com/harshsajla2001)
+- [LinkedIn Profile](https://www.linkedin.com/in/harsh-sajla-549304233/)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
