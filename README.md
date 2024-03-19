@@ -25,11 +25,6 @@ Inside the Charts component, instances of LineChart and BarChart components are 
 https://drive.google.com/file/d/1DuNBv8mlMmueB8j-4-6ewuy4fkUQ3FDW/view?usp=sharing
 
 
-## Screenshots
-
-![App Screenshot](https://drive.google.com/file/d/1DuNBv8mlMmueB8j-4-6ewuy4fkUQ3FDW/view?usp=sharing)
-
-
 ## Installation
 
 Install Data-Visualization-Task with yarn
